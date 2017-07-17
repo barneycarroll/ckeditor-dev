@@ -73,7 +73,7 @@
 	var frameTpl = CKEDITOR.addTemplate( 'panel-frame', '<iframe id="{id}" class="cke_panel_frame" role="presentation" frameborder="0" src="{src}"></iframe>' );
 
 	var frameDocTpl = CKEDITOR.addTemplate( 'panel-frame-inner', '<!DOCTYPE html>' +
-		'<html class="cke_panel_container {env}" dir="{dir}" lang="{langCode}">' +
+		'<html class="cke_panel_container cke_reset_all {env}" dir="{dir}" lang="{langCode}">' +
 			'<head>{css}</head>' +
 			'<body class="cke_{dir}"' +
 				' style="margin:0;padding:0" onload="{onload}"></body>' +
